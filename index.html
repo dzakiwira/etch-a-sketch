@@ -12,14 +12,18 @@
     <h1 id="title">Etch-a-Sketch</h1>
     <div class="board">
         <div class="controls">
+            <h3>CONTROL PANEL</h3>
+            <button id="black">Black</button>
+            <button id="random">Random Colour</button>
+            <div id="color-picker">
+                <label for="colorpicker">Color Picker:</label>
+                <input type="color" id="colorpicker" value="#000">
+            </div>
             <div id="grid-range">
                 <input type="range" id="grid-size" name="grid-size"
                 min="2" max="100">
-                <!-- <label for="grid-size">Grid Size</label> -->
-                <button id="reset">Grid Size Reset</button>
+                <button id="reset">Apply / Reset</button>
             </div>
-            <button id="black">Black</button>
-            <button id="random">Random Colour</button>
         </div>
         <div id="canvas"></div>
     </div>
