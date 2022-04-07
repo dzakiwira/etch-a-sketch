@@ -1,5 +1,5 @@
 body {
-    background-color: #001219;
+    background-color: #264653;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,7 +8,9 @@ body {
 }
 
 #title {
-    color: #EE9B00;
+    color: rgb(233, 196, 106);
+    font-weight: 900;
+    font-size: 50px;
 }
 
 #canvas {
@@ -20,8 +22,22 @@ body {
     display: flex;
     flex-direction: column;
     flex-shrink: 0;
-    
+}
+.board {
+    display: flex;
+    background-color: #E76F51;
+    padding: 20px;
+    gap: 20px;
+    border-radius: 10px;
+}
 
+.controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: white;
 }
 
 .row {
@@ -30,7 +46,7 @@ body {
 }
 
 .grid {
-    border: .25px solid black;
+    border: .25px solid grey;
     margin: 0;
     padding: 0;
 }
