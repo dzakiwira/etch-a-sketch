@@ -29,6 +29,8 @@ body {
     padding: 20px;
     gap: 20px;
     border-radius: 10px;
+    box-shadow: 10px 10px 5px rgb(26, 30, 30);
+    
 }
 
 .controls {
@@ -38,6 +40,18 @@ body {
     justify-content: center;
     gap: 20px;
     color: white;
+}
+
+#grid-range {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+#color-picker {
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
 .row {
